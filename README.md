@@ -12,7 +12,7 @@ Projekt analityczny mający na celu przewidywanie odejść klientów (Customer C
 ## Dane i Preprocessing
 Wykorzystano ustandaryzowany zbiór danych *Telco Customer Churn* (>7000 rekordów). 
 * **Data Cleaning:** Naprawa błędnych typów tekstowych na numeryczne (`TotalCharges`), usunięcie szumu informacyjnego (`customerID`).
-* **Encoding:** Konwersja zmiennych kategorycznych za pomocą techniki One-Hot Encoding (`drop_first=True` w celu uniknięcia pułapki idealnej współliniowości).
+* **Encoding:** Konwersja zmiennych kategorycznych (`drop_first=True`) w celu uniknięcia pułapki idealnej współliniowości.
 
 ## Metodologia i Wyniki Modelowania
 
