@@ -39,6 +39,12 @@ Model zidentyfikował trzy główne zmienne napędzające ucieczkę klientów:
 ## Interaktywna Aplikacja (Streamlit)
 W ramach projektu stworzono również aplikację webową, która operacjonalizuje model. Pozwala ona doradcom klienta na ręczne wprowadzanie danych z profilu abonenta i natychmiastowe oszacowanie ryzyka odejścia (z wykorzystaniem zoptymalizowanego progu 30%).
 
+
+
+https://github.com/user-attachments/assets/4e056fd0-2706-4a92-ac8e-7d5aef8a9539
+
+
+
 ### Jak uruchomić aplikację lokalnie?
 1. Przejdź do folderu z aplikacją:
    ```bash
