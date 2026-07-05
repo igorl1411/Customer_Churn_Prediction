@@ -37,7 +37,7 @@ Model zidentyfikował trzy główne zmienne napędzające ucieczkę klientów:
 3. `Tenure` (Staż klienta)
 
 ## Interaktywna Aplikacja (Streamlit)
-W ramach projektu stworzono również aplikację webową (znajdującą się w folderze `apka/`), która operacjonalizuje model. Pozwala ona doradcom klienta na ręczne wprowadzanie danych z profilu abonenta i natychmiastowe oszacowanie ryzyka odejścia (z wykorzystaniem zoptymalizowanego progu 30%).
+W ramach projektu stworzono również aplikację webową, która operacjonalizuje model. Pozwala ona doradcom klienta na ręczne wprowadzanie danych z profilu abonenta i natychmiastowe oszacowanie ryzyka odejścia (z wykorzystaniem zoptymalizowanego progu 30%).
 
 ### Jak uruchomić aplikację lokalnie?
 1. Przejdź do folderu z aplikacją:
