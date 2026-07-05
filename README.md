@@ -1,7 +1,7 @@
-# Customer Churn Prediction: Random Forest & Threshold Tuning
+# Customer Churn Prediction: Random Forest & Threshold Tuning + App
 
 ## O projekcie
-Projekt analityczny mający na celu przewidywanie odejść klientów (Customer Churn) w sektorze telekomunikacyjnym. Głównym założeniem było zbudowanie modelu uczenia maszynowego, który odchodzi od optymalizacji czystej dokładności (Accuracy) na rzecz optymalizacji **Czułości (Recall)**, minimalizując tym samym straty biznesowe wynikające z tzw. False Negatives (przegapionych uciekinierów).
+Projekt analityczny mający na celu przewidywanie odejść klientów (Customer Churn) w sektorze telekomunikacyjnym oraz stworzenie prostej aplikacji. Głównym założeniem było zbudowanie modelu uczenia maszynowego, który odchodzi od optymalizacji czystej dokładności (Accuracy) na rzecz optymalizacji **Czułości (Recall)**, minimalizując tym samym straty biznesowe wynikające z tzw. False Negatives (przegapionych uciekinierów).
 
 ## Technologie i Narzędzia
 * **Język:** Python 3
