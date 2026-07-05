@@ -1,4 +1,4 @@
-#  Customer Churn Prediction: Random Forest & Threshold Tuning
+# Customer Churn Prediction: Random Forest & Threshold Tuning
 
 ## O projekcie
 Projekt analityczny mający na celu przewidywanie odejść klientów (Customer Churn) w sektorze telekomunikacyjnym. Głównym założeniem było zbudowanie modelu uczenia maszynowego, który odchodzi od optymalizacji czystej dokładności (Accuracy) na rzecz optymalizacji **Czułości (Recall)**, minimalizując tym samym straty biznesowe wynikające z tzw. False Negatives (przegapionych uciekinierów).
@@ -6,7 +6,7 @@ Projekt analityczny mający na celu przewidywanie odejść klientów (Customer C
 ## Technologie i Narzędzia
 * **Język:** Python 3
 * **Środowisko:** Jupyter Notebook
-* **Biblioteki:** `pandas`, `matplotlib`, `seaborn`, `scikit-learn`
+* **Biblioteki:** `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `streamlit`
 * **Algorytm główny:** Random Forest Classifier (Las Losowy)
 
 ## Dane i Preprocessing
@@ -36,5 +36,28 @@ Model zidentyfikował trzy główne zmienne napędzające ucieczkę klientów:
 2. `MonthlyCharges` (Miesięczny rachunek)
 3. `Tenure` (Staż klienta)
 
-##  Podsumowanie
-Projekt demonstruje pełen cykl życia modelu: od czyszczenia danych, poprzez ewaluację problemu niezbalansowanych klas (Class Imbalance) i weryfikację wag, aż po optymalizację decyzji opartą na realiach i kosztach biznesowych.
+## Interaktywna Aplikacja (Streamlit)
+W ramach projektu stworzono również aplikację webową (znajdującą się w folderze `apka/`), która operacjonalizuje model. Pozwala ona doradcom klienta na ręczne wprowadzanie danych z profilu abonenta i natychmiastowe oszacowanie ryzyka odejścia (z wykorzystaniem zoptymalizowanego progu 30%).
+
+### Jak uruchomić aplikację lokalnie?
+1. Przejdź do folderu z aplikacją:
+   ```bash
+   cd apka
+   ```
+2. Opcjonalnie – stwórz i aktywuj środowisko wirtualne:
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate   # Windows
+   source .venv/bin/activate # Linux/macOS
+   ```
+3. Zainstaluj wymagane pakiety:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Uruchom aplikację:
+   ```bash
+   streamlit run app.py
+   ```
+
+## Podsumowanie
+Projekt demonstruje pełen cykl życia modelu: od czyszczenia danych, poprzez ewaluację problemu niezbalansowanych klas (Class Imbalance) i weryfikację wag, aż po optymalizację decyzji opartą na realiach i kosztach biznesowych oraz wdrożenie modelu w formie aplikacji końcowej.
